@@ -111,6 +111,7 @@
 
 body {
   height: 100vh;
+  background-color: #F9FAFB;
 }
 
 .join-nl-page {
@@ -145,14 +146,17 @@ body {
 
 .info-text {
   padding: 2rem 0 5rem;
+  color: #6C727F;
 }
 
 /* Email card section */
 
 .card {
   padding: 2rem;
-  border: 1px solid black;
+  border: 1px solid none;
   border-radius: 10px;
+  background-color: #FFFFFF;
+  color: #394150;
 
   /* card width */
   width: 100%;
@@ -172,8 +176,13 @@ body {
   width: 100%;
   text-align: center;
   padding: .5rem 1rem;
-  border: 1px solid grey;
+  border: 1px solid #E5E7EB;
   border-radius: 5px;
+  background-color: #F9FAFB;
+}
+
+.email-form input::placeholder {
+  color: #394150;
 }
 
 .email-form button {
@@ -183,10 +192,11 @@ body {
   border: 1px solid grey;
   border-radius: 5px;
   color: white;
-  background-color: blue;
+  background-color: #284BCE;
 }
 
-.card-text {
+.helper-text {
   font-size: .8rem;
+  /* color: #6C727F; */
 }
   
