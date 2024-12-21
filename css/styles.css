@@ -64,6 +64,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-align: center;
   }
 
   body {
@@ -75,19 +76,74 @@
     flex-direction: column;
     align-items: center;
     padding: 0 20%;
+    margin: 5rem 0;
   }
 
   .logo {
     width: 36px;
+    margin: 1rem;
   }
 
   .author-info {
-    font-size: 14px;
+    font-size: .8rem;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 1rem;
     color: rgb(55, 65, 81);
   }
 
   .author-info a {
     text-decoration: none;
+  }
+
+  /* Title and sub-text section */
+
+  .title {
+    /* padding: 1rem 0 .5rem; */
+  }
+
+  .info-text {
+    padding: 2rem 0 5rem;
+  }
+
+  /* Email card section */
+
+  .card {
+    padding: 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    /* card width */
+    width: 100%;
+    max-width: 80%;
+    
+    /* Box-shadow */
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  }
+
+  .email-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .email-form input {
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+
+  .email-form button {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: .5rem 1rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+  }
+
+  .card-text {
+    font-size: .8rem;
   }
