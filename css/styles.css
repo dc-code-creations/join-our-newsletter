@@ -199,4 +199,15 @@ body {
   font-size: .8rem;
   /* color: #6C727F; */
 }
-  
+
+@media (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: blue;
+  }
+}
