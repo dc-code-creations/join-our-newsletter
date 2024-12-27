@@ -140,10 +140,6 @@ body {
 
 /* Title and sub-text section */
 
-.title {
-  /* padding: 1rem 0 .5rem; */
-}
-
 .info-text {
   padding: 2rem 0 5rem;
   color: #6C727F;
@@ -197,48 +193,23 @@ body {
 
 .helper-text {
   font-size: .8rem;
-  /* color: #6C727F; */
 }
 
 @media (max-width: 1024px) {
-  body {
-    /* background-color: red; */
-  }
   
   .join-nl-page {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     padding: 0 10%;
-    /* margin: 5rem 0; */
   }
 }
 
 @media (max-width: 640px) {
-  body {
-    background-color: blue;
-  }
   
   .join-nl-page {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    /* padding: 0 20%; */
-    /* margin: 5rem 0; */
+    padding: 0 5%;
   }
 
   .card {
-    /* display: flex; */
-    padding: 2rem;
-    /* border: 1px solid; */
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    color: #394150;
-
-    /* card width */
     width: 100%;
-    
-    /* Box-shadow */
-    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+    max-width: 100%;
   }
 }
