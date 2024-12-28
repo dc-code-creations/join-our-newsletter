@@ -1,5 +1,5 @@
 /*  When to use rem, em, px, %, etc.
-      - source: https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=For%20width%2C%20percentages%20are%20often,depending%20on%20your%20specific%20requirements.
+      - source: https://www.freecodecamp.org/news/css-units-when-to-use-each-one/#:~:text=For%20width%2C%20percentages%20are%20often,depending%20on%20your%20specific%20requirements
 
       - absolute vs relative units
       - most important and frequently used units: rem, em, vh, vw, %, px
@@ -13,8 +13,8 @@
               - good for easier, more consistant scaling by allowing you to change it in 
                 one place
           - advantages for padding and margins (in terms of scalable, maintainable design)
-              - rem or em should be used depending on if yo want the element to be relative 
-                to the root element or th parent
+              - rem or em should be used depending on if you want the element to be relative 
+                to the root element or the parent
       - em: a relative unit of measure
           - 1 em = font size of PARENT element or nearest parent element with a defined 
             font size
@@ -53,7 +53,7 @@
             size
 
       - suggestions:
-          - font sizes: commonly use rem or ch.
+          - font sizes: commonly use rem or ch
           - width: percentages are often recommended; can also use vw and ch
           - height: %, rem, or vh.
           - padding or margin: typically use rem or em depending on your specific requirements
